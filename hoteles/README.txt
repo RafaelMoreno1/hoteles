@@ -1,4 +1,4 @@
-Este proyecto es parete de la especialisacion 
+Este proyecto es parte de la Especialización
 Full stack Web Developer  
 #Nodejs
 #Git

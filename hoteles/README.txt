@@ -5,5 +5,5 @@ Full stack Web Developer
 #servidor: lite:server
 Seañadieron las librerias desde npm 
 #jquery.js
-#bootstrap
+#bootstrap-->jumbotrom-->containers-->row-sm(para que sea resposive)
 #popper

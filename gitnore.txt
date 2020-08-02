@@ -1,0 +1,1 @@
+#No descarte ningun archivo con .gitnore por que realmente queria que todo mi proyecto estuviera en git

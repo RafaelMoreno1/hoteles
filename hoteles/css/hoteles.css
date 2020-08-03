@@ -1,17 +1,12 @@
-#jumbo1{
-    background-color: pink;
-    /*comfiguracion texto titulo*/
-    text-align: center;
-    font-family: Brush Script MT, cursive;
+#jumbo1 {
+  background-color: pink;
+  /*comfiguracion texto titulo*/
+  text-align: center;
+  font-family: Brush Script MT, cursive;
 }
-#hotel1{
-    background-color: goldenrod;
+#hotel1 {
+  background-color: goldenrod;
 }
-
-#hotel2{
-
-}
-
-#hotel3{
-background-color: goldenrod;
+#hotel3 {
+  background-color: goldenrod;
 }

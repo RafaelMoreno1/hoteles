@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Bootstrap CSS  esta linea de codigo fue modificada y apunta a una carpeta local instalada con npm "boostrap" -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="html/hoteles.html">
 
@@ -15,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +32,13 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="html/contacto.html">Nosotros</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            mas
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -99,13 +104,87 @@
     </div>
   </div>
 
+  <!-- Inicio de pie de pagina -->
+  <div class="container " id="container3">
+    <footer class="page-footer card-group">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text align-center">
+
+            <a href="https://www.facebook.com/">facebook</a>
+            <br>
+            <a href="https://twitter.com/">twitter</a>
+            <br>
+            <a href="https://www.instagram.com/">instagram</a>
+            <br>
+            <a href="https://www.google.com.mx/">Google+</a></p>
+
+        </div>
+      </div>
+      <div class="card" id="card1">
+        <div class="card-body">
+          <h4 class="card-title"><b>Oficina central</b></h4>
+          <p class="card-text">
+            <addres>
+              <h3></h3>
+              <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop-window" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M3.12 1.175A.5.5 0 0 1 3.5 1h9a.5.5 0 0 1 .38.175l2.759 3.219A1.5 1.5 0 0 1 16 5.37v.13h-1v-.13a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.13H0v-.13a1.5 1.5 0 0 1 .361-.976l2.76-3.22z" />
+                  <path
+                    d="M2.375 6.875c.76 0 1.375-.616 1.375-1.375h1a1.375 1.375 0 0 0 2.75 0h1a1.375 1.375 0 0 0 2.75 0h1a1.375 1.375 0 1 0 2.75 0h1a2.375 2.375 0 0 1-4.25 1.458 2.371 2.371 0 0 1-1.875.917A2.37 2.37 0 0 1 8 6.958a2.37 2.37 0 0 1-1.875.917 2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.5h1c0 .76.616 1.375 1.375 1.375z" />
+                  <path
+                    d="M4.75 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm3.75 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm3.75 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM2 8.854V15h12V8.854a3.354 3.354 0 0 0 1-.27V15h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V8.583c.311.14.647.232 1 .271zm0-1.008V7H1v.437c.291.207.632.35 1 .409zm13-.409c-.291.207-.632.35-1 .409V7h1v.437z" />
+                  <path d="M4 13V9H3v4a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V9h-1v4H4z" />
+                </svg>xalapa ver</p>
+              <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                  <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg>20209302</p>
+              <email class="email" colorShref="linealdecontactoinutilo@nolecontestaremos.mejornimandenada"><svg
+                  width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                </svg>linealdecontactoinutilo@nolecontestaremos.mejornimandenada</email>
+            </addres>
+          </p>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <div class="card-body">
+          <h4 class="card-title">Nosotros</h4>
+          <p class="card-text"> <a href="https://www.facebook.com/">Nosotros</a>
+            <a href="https://twitter.com/">Precios</a><br>
+            <a href="https://www.instagram.com/">Terminos y condiciones</a><br>
+            <a href="https://www.google.com.mx/">contacte</a><br>
+        </div>
+        </p>
+      </div>
+  </div>
+  <div class="col-sm-4 d-flex flex-colum align-items-right alig-items-end">
+  </div>
+  </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS estas lineas fueron modificada en vez de apuntar a la pagina apunta a un archivo locar instalado de la misma forma que el aterior -->
   <!-- Optional JavaScript -->
   <!-- node_modules/"libreria"/dist/"libreria".min."XX" usa la version min por que es completa y ligera da una respuesta al servidor mas rapida -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!--recuerda retirar las enlaces externo cunado encuentres la solucion al fallo, (sin enlaces no funciona bootsrrap) navbar, dropdown-->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
-  <script src="node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
+  <cript src="node_modules/jquery/dist/jquery.slim.min.js">
+    </script>
+    <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
+    <script src="node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
 </body>
 
 </html>

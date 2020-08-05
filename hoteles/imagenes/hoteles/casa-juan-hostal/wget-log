@@ -1,0 +1,9 @@
+--2020-08-05 04:05:42--  https://duckduckgo.com/?t=ffab
+Cargado certificado CA '/etc/ssl/certs/ca-certificates.crt'
+Resolviendo duckduckgo.com (duckduckgo.com)... 40.89.244.232
+Conectando con duckduckgo.com (duckduckgo.com)[40.89.244.232]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 5403 (5.3K) [text/html]
+index.html?t=ffab: Argumento inválido
+
+No se puede escribir a “index.html?t=ffab” (No existe el fichero o el directorio).

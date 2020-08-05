@@ -3,10 +3,13 @@
   /*comfiguracion texto titulo*/
   text-align: center;
   font-family: Brush Script MT, cursive;
+  /*position*/
+  margin-top: 50px;
+  margin-bottom: -30px;
 }
-#hotel1 {
+#car1hotel {
   background-color: goldenrod;
 }
-#hotel3 {
+#car3hotel {
   background-color: goldenrod;
 }

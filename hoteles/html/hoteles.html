@@ -63,14 +63,17 @@
   <div class="d-flex flex-wrap">
     <div class="col-sm-4 card card-hotel d-flex flex-column justify-content-between" id="car1hotel">
       <div class="card-body"></div>
-      <h2 class="card-title"><b>Casa de Juan Hostal </b></h2>
-      <div><img  class="card-img-top" src="../imagenes/hoteles/casa-juan-hostal/external-content.duckduckgo.com.jpg" alt=""></div>
+      <h2 class="card-title "><b>Casa de Juan Hostal </b></h2>
+      <div><img class="card-img-top" src="../imagenes/hoteles/casa-juan-hostal/external-content.duckduckgo.com.jpg"
+          alt=""></div>
       <p class="card-text">La Casa de Juan Hostal se encuentra en Xalapa, a 2,6 km del paseo de los Lagos, y ofrece
         salón compartido,
         jardín y vistas a la ciudad. Este hotel de 3 estrellas ofrece WiFi gratuita y consigna de equipaje. El hotel
         dispone de habitaciones familiares.
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button"> <svg width="1em" height="1em" viewBox="0 0 16 16"
+        <!--este button tiene agregado la clase tooltip para mostrar texto encima de el -->
+        <a class="btn btn-primary btn-lg"  data-toggle="tooltip"
+        data-placement="top" title="Calidad exelencia xalapeña" href="#" role="button"> <svg width="1em" height="1em" viewBox="0 0 16 16"
             class="bi bi-plus-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
               d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4a.5.5 0 0 0-1 0v3.5H4a.5.5 0 0 0 0 1h3.5V12a.5.5 0 0 0 1 0V8.5H12a.5.5 0 0 0 0-1H8.5V4z" />
@@ -80,7 +83,7 @@
     <div class="col-sm-4 card card-hotel d-flex flex-column justify-content-between" id="car2hotel">
       <div class="card-body">
         <h2 class="card-title"><b>Capital O SC</b></h2>
-        <div><img  class="card-img-top" src="../imagenes/hoteles/capitalOS/capital.jpg" alt=""></div>
+        <div><img class="card-img-top" src="../imagenes/hoteles/capitalOS/capital.jpg" alt=""></div>
         <p>El Capital O SC se encuentra en Xalapa, a 4 km del paseo de los Lagos y a 7 km del jardín botánico Clavijero,
           y
           ofrece alojamiento con terraza y aparcamiento privado gratuito. Este hotel de 2 estrellas cuenta con recepción
@@ -98,7 +101,8 @@
     <div class="col-sm-4 card card-hotel d-flex flex-column justify-content-between" id="car3hotel">
       <div class="card-body">
         <h2 class="card-title"><b>Holiday Inn Express Xalapa </b></h2>
-        <div><img  class="card-img-top" src="../imagenes/hoteles/holidayinnEsspressXalapa/holidayInnEsspresXalapa.jpg" alt=""></div>
+        <div><img class="card-img-top" src="../imagenes/hoteles/holidayinnEsspressXalapa/holidayInnEsspresXalapa.jpg"
+            alt=""></div>
         <p>El Holiday Inn Express Xalapa está situado a 1,3 km de la montaña Galaxia y a 4,4 km del cerro del parque
           ecológico Macuiltépetl. Ofrece centro de fitness, un desayuno exprés gratuito, conexión WiFi gratuita en todas
           las instalaciones y servicio de traslado gratuito.</p>
@@ -123,6 +127,39 @@
               d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4a.5.5 0 0 0-1 0v3.5H4a.5.5 0 0 0 0 1h3.5V12a.5.5 0 0 0 1 0V8.5H12a.5.5 0 0 0 0-1H8.5V4z" />
           </svg> Reservar</a>
       </p>
+    </div>
+  </div>
+  </div>
+  <!--INicio modals :contacto-->
+
+  <button type="button  justify-content-center align-items-cente " class="btn btn-primary" data-toggle="modal"
+    data-target="#Modal" data-whatever="@mdo">contacto@</button>
+  <div class="modal fade " id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title margin-left: 0px" id="ModalLabel">Correo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">tu Correo:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Comentario:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Inicio de pie de pagina -->
@@ -206,6 +243,9 @@
     <script src="../node_modules/popper.js/dist/popper-utils.min.js"></script>
     <script src="../node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
 
+    <script>$(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })</script>
 </body>
 
 </html>

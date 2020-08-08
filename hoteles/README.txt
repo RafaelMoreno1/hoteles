@@ -8,3 +8,7 @@ Seañadieron las librerias desde npm
 #bootstrap-->jumbotrom-->containers-->row-sm(para que sea resposive)
 #popper
 Iconos que funcionan con esta version https://icons.getbootstrap.com/icons/phone/
+Agregamos 
+#sass y less 
+#mixin 
+para compilar css

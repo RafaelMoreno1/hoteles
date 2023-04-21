@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/RafaelMoreno1/hoteles#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4",
+    "lite-server": "^2.6.1",
     "node-sass": "^4.14.1"
   },
   "dependencies": {
